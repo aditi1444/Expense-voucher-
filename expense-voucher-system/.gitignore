@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+
+# Uploaded files are private application data
+backend/uploads/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
